@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" accept-charset="UTF-8">    <!--action : file su ly cua form nam o phia server-->
+        <!--method : phuong thuc cua from gui len gom (get, post, put, patch, delete)-->
+        <!--accept-charset : from su ly chu o dang nao)-->
+        FullName:
+        <input type="text" value="" name="name" placeholder="dien ten vao day">
+        Age:
+        <input type="text" value="" name="Age" placeholder="dien tuoi vao day">
+    </form>
+    <br>
+
+    <form action="" method="get" accept-charset="UTF-8">    <!--action : file su ly cua form nam o phia server-->
+        <!--method : phuong thuc cua from gui len gom (get, post, put, patch, delete)-->
+        <!--accept-charset : from su ly chu o dang nao)-->
+        <label for="ten-cua-ban">FullName:</label>
+        <input type="text" value="" name="ten-cua-ban" placeholder="dien ten vao day">
+        <br>
+
+        <label for="tuoi-cua-ban">Age:</label>
+        <input type="text" value="" name="tuoi-cua-ban" placeholder="dien tuoi vao day">
+        <br>
+
+        <label for="bio">About yourseft</label>
+        <br>
+        <textarea name="bio" id="" cols="30" rows="10"></textarea>
+        <br>
+
+        <input type="submit" value="gui du lieu">
+        <button>xoa du lieu</button>
+    </form>
+    <br>
+
+    <!-- tao danh sach lua chon -->
+    <form action="" accept-charset="UTF-8">
+
+        <select name="" id="">      <!--  <select name="" id="" multiple> : chon dc nhieu  -->
+            <optgroup label="mang xa hoi">
+                <option value="">facebook</option>
+                <option value="">youtube</option>
+                <option value="">google</option>
+                <option value="">github</option>
+            </optgroup>
+
+            <optgroup label="chat">
+                <option value="">zalo</option>
+                <option value="">viber</option>
+                <option value="">line</option>
+                <option value="">whatsapp</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
